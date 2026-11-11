@@ -1,0 +1,35 @@
+# Link Discord untuk tombol di menu
+discord: "https://discord.gg/HQ3cM2psVX"
+
+# Pesan saat pemain menekan tombol Keluar
+exit-message: "Sampai jumpa di Veyrion Roleplay!"
+
+# Jeda (tick, 20 tick = 1 detik) sebelum intro mulai setelah join / setelah login
+start-delay-ticks: 60
+
+# Kalau LoginSecurity terpasang, tunggu pemain login dulu sebelum intro mulai
+wait-for-login: true
+
+# Daftar ras. weight = peluang relatif di gacha (semua 1 = sama rata).
+# trait = kalimat "AYO TUNJUKKAN <trait> DI DUNIA VEYRION" (otomatis huruf besar)
+races:
+  elf:
+    display: "Elf"
+    trait: "telinga runcingmu"
+    color: "#7CE8A0"
+    weight: 1
+  beast:
+    display: "Beast"
+    trait: "cakarmu"
+    color: "#FFA64D"
+    weight: 1
+  human:
+    display: "Human"
+    trait: "tekadmu"
+    color: "#8EC5FF"
+    weight: 1
+  dragon:
+    display: "Dragon"
+    trait: "sayapmu"
+    color: "#FF5555"
+    weight: 1

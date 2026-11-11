@@ -1,0 +1,15 @@
+name: VeyrionRace
+version: 1.0.0
+main: id.veyrion.race.VeyrionRace
+api-version: '1.21'
+softdepend: [PlaceholderAPI, LoginSecurity]
+description: Intro dan gacha ras Veyrion Roleplay (tanpa inventory GUI) + placeholder %veyrion_race%
+commands:
+  veyrionrace:
+    description: Perintah VeyrionRace
+    usage: /veyrionrace <get|set|reset|start|reload> ...
+    aliases: [ras]
+permissions:
+  veyrionrace.admin:
+    description: Boleh pakai perintah admin VeyrionRace
+    default: op
